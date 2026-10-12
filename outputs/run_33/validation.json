@@ -1,0 +1,18 @@
+[
+  {
+    "steps": 25000,
+    "validation_return": -249.93149999999997
+  },
+  {
+    "steps": 50000,
+    "validation_return": -224.88799999999983
+  },
+  {
+    "steps": 75000,
+    "validation_return": -244.03349999999983
+  },
+  {
+    "steps": 100000,
+    "validation_return": -223.84050000000002
+  }
+]

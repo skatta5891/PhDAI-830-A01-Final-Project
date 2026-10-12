@@ -1,0 +1,33 @@
+{
+  "fixed": {
+    "controller": "fixed",
+    "target": 7,
+    "upper": "",
+    "lower": "",
+    "validation_return": -255.26300000000106
+  },
+  "threshold": {
+    "controller": "threshold",
+    "target": "",
+    "upper": 1.2,
+    "lower": 0.2,
+    "validation_return": -248.48850000000044
+  },
+  "dqn": [
+    {
+      "seed": 11,
+      "steps": 75000,
+      "validation_return": -212.50650000000002
+    },
+    {
+      "seed": 22,
+      "steps": 75000,
+      "validation_return": -218.48399999999964
+    },
+    {
+      "seed": 33,
+      "steps": 100000,
+      "validation_return": -223.84050000000002
+    }
+  ]
+}

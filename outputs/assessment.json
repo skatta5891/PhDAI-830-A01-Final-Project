@@ -1,0 +1,74 @@
+{
+  "nominal": {
+    "dqn_mean": {
+      "cost": 1156.1866666666667,
+      "unserved_fraction": 0.0013493982390521235,
+      "mean_queue": 9.619277777777777,
+      "queue_above_20_pct": 10.952777777777778,
+      "scaling_actions": 72.46666666666665,
+      "return": -269.8957333333332
+    },
+    "dqn_sample_sd": {
+      "cost": 38.65582664144354,
+      "unserved_fraction": 0.0005449583951799178,
+      "mean_queue": 0.9598544534247155,
+      "queue_above_20_pct": 0.5752012530249563,
+      "scaling_actions": 10.563055113618091,
+      "return": 9.909661399529785
+    },
+    "threshold": {
+      "workload": "nominal",
+      "controller": "Threshold",
+      "training_seed": 0,
+      "cost": 1372.14,
+      "unserved_fraction": 0.0036342895216366416,
+      "mean_queue": 10.425833333333335,
+      "queue_above_20_pct": 10.275,
+      "scaling_actions": 28.68,
+      "return": -313.68260000000004
+    },
+    "saving_pct": 15.738432910150083,
+    "conditions": {
+      "saving_at_least_10_pct": true,
+      "no_unserved_increase": true,
+      "queue_increase_at_most_1_pp": true
+    },
+    "all_conditions_met": true
+  },
+  "robustness": {
+    "dqn_mean": {
+      "cost": 1137.08,
+      "unserved_fraction": 0.002163005739209118,
+      "mean_queue": 13.427472222222221,
+      "queue_above_20_pct": 16.605555555555554,
+      "scaling_actions": 83.27333333333333,
+      "return": -305.3861999999999
+    },
+    "dqn_sample_sd": {
+      "cost": 37.66567137328099,
+      "unserved_fraction": 0.0005916428703335862,
+      "mean_queue": 1.3959937926013448,
+      "queue_above_20_pct": 1.2073367537837338,
+      "scaling_actions": 7.194562761789862,
+      "return": 13.484329933667462
+    },
+    "threshold": {
+      "workload": "robustness",
+      "controller": "Threshold",
+      "training_seed": 0,
+      "cost": 1346.92,
+      "unserved_fraction": 0.003957461734369679,
+      "mean_queue": 12.093500000000004,
+      "queue_above_20_pct": 14.083333333333332,
+      "scaling_actions": 40.06,
+      "return": -326.7218000000001
+    },
+    "saving_pct": 15.579247468298053,
+    "conditions": {
+      "saving_at_least_10_pct": true,
+      "no_unserved_increase": true,
+      "queue_increase_at_most_1_pp": false
+    },
+    "all_conditions_met": false
+  }
+}
